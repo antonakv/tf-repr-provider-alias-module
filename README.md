@@ -3,7 +3,8 @@ Provider alias used in main module and in extra module
 
 # Intro
 
-This terraform code is example of use required_providers and provider aliases
+This terraform code is example of use required_providers and provider aliases.
+External module with source on github is added as well.
 
 ## Requirements
 
