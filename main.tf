@@ -17,7 +17,7 @@ provider "aws" {
 }
 
 module "mymodule" {
-    source = "github.com/antonakv/tf-repr-alias-module"
+    source = "github.com/antonakv/tf-repr-alias-module/mymodule"
 }
 
 resource "aws_dynamodb_table" "dynamodb-table-1" {
