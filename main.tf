@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.2"
+    }
+  }
+}
+
 provider "aws" {
   alias  = "aws-frankfurt"
   region = "eu-central-1"
