@@ -18,6 +18,9 @@ provider "aws" {
 
 module "mymodule" {
     source = "github.com/antonakv/tf-repr-alias-module/mymodule"
+    providers = {
+      aws = aws.aws-frankfurt
+    }
 }
 
 resource "aws_dynamodb_table" "dynamodb-table-1" {
